@@ -1,6 +1,9 @@
 user_prompt = "Enter a todo : "
 
-while 2 > 1:
+todos = []
+
+while True:
     todo = input(user_prompt)
-    print(todo)
+    todos.append(todo.capitalize())
+    print(todos)
     print("Next...")
